@@ -44,13 +44,7 @@ class OrQuery(CompositeQuery):
         qs = queryset.none()
 
         for query in self._sub_queries:
-            if isinstance(query, CompositeQuery):
-                # qs = CompoundQueryset(qs, query.applyOnQuerySet(queryset))
-                qs = qs | query.applyOnQuerySet(queryset)
-
-        for query in self._sub_queries:
-            if not isinstance(query, CompositeQuery):
-                qs = query.applyOnQuerySet(qs)
+            qs = qs | query.applyOnQuerySet(queryset)
 
 
 class All(Query):
