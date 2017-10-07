@@ -110,8 +110,7 @@ Try it doing the following:
 Then:
 1. Go to **http://localhost:8000** and you should see the usual Django Rest Framework page.
 2. Go to **http://localhost:8000/polls** and you should see the list of all polls available
-3. Go to **http://localhost:8000/polls/?query={"_query_class": "filter","_condition": "title__icontains","_value":
- "DRQ" }**
+3. Go to **http://localhost:8000/polls/?query={"_query_class":"filter","_condition":"title__icontains","_value":"DRQ"}**
 
 
 
