@@ -1,4 +1,4 @@
-# Django Remote Queryset
+# Django Remote Queryset [![Build Status](https://travis-ci.org/nicfix/django-remote-queryset.svg?branch=master)](https://travis-ci.org/nicfix/django-remote-queryset)
 
 ## Description
 

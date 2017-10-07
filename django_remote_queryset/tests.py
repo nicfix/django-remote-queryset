@@ -23,3 +23,5 @@ class QueryTest(unittest.TestCase):
         assert isinstance(query, CompositeQuery)
 
         assert isinstance(query.get_sub_queries()[0], Filter)
+
+
