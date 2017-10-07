@@ -2,7 +2,7 @@ from setuptools import setup
 from setuptools import find_packages
 
 setup(
-    name='tornado_mongo_rest',
+    name='django_remote_queryset',
     version='0.1.1',
     scripts=[
     ],
