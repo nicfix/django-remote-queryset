@@ -4,3 +4,5 @@
 deploy_settings.json
 celery.sh
 *.sqlite3
+dist/
+*.egg-info
