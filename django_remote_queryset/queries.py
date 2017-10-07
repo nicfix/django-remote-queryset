@@ -1,6 +1,10 @@
 import json
 
-from django.contrib.gis.geos import GEOSGeometry
+try:
+    from django.contrib.gis.geos import GEOSGeometry
+except Exception as e:
+    pass
+
 from django.db.models import F, Q
 
 
