@@ -60,7 +60,7 @@ DRQ is distrubuted through pypi
 ```
 
 Django **rest_framework** is strongly recommended but if you prefer to use DRQ without it you can see [Advanced 
-Usage](#advanced usage) section.
+Usage](#advanced-usage) section.
 
 2. Extend DRQModelViewSet for your model:
 
