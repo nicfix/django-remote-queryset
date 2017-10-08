@@ -3,7 +3,7 @@ from setuptools import find_packages
 
 setup(
     name='django_remote_queryset',
-    version='0.1.1',
+    version='0.1.2',
     scripts=[
     ],
     packages=find_packages(exclude=['contrib', 'docs', 'tests*']),
