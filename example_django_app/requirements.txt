@@ -1,4 +1,4 @@
-Django==1.11.23
+Django==1.11.28
 django-autofixture==0.12.1
 djangorestframework==3.9.1
 pytz==2017.2
